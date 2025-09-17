@@ -3,14 +3,25 @@
 }
 
 ul {
+  width: 180px;
+  padding: 5px;
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
+  border: whitesmoke 3px solid;
+  margin: 5px;
 }
 
 li {
   list-style: none;
   margin: 8px;
   padding: 8px;
-  border: whitesmoke 3px solid;
   border-radius: 8px;
+}
+
+.zombie-list {
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
